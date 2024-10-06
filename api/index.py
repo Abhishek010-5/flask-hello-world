@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    question = questions[0]
-    to_return = question["April"]
-    return jsonify(to_return)
+    # question = questions[0]
+    # to_return = question["April"]
+    return jsonify(questions)
 
 @app.route('/about')
 def about():
