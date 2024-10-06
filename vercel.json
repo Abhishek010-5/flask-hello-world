@@ -1,13 +1,7 @@
-{
-  "functions": {
-    "api/index.py": {
-      "includeFiles": ["api/months.py"]
-    }
-  },
   "routes": [
     {
       "src": "/(.*)",
       "dest": "api/index.py"
     }
   ]
-}
+
